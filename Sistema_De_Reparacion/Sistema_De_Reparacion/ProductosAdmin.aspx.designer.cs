@@ -11,7 +11,7 @@ namespace Sistema_De_Reparacion
 {
 
 
-    public partial class ServiciosAdmin
+    public partial class ProductosAdmin
     {
 
         /// <summary>
@@ -24,30 +24,57 @@ namespace Sistema_De_Reparacion
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control lblDescripcionSer.
+        /// Control lblDescripcionProd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescripcionSer;
+        protected global::System.Web.UI.WebControls.Label lblDescripcionProd;
 
         /// <summary>
-        /// Control lblDescripcionSerAs.
+        /// Control lblDescripcionProdAs.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescripcionSerAs;
+        protected global::System.Web.UI.WebControls.Label lblDescripcionProdAs;
 
         /// <summary>
-        /// Control txtServicios.
+        /// Control txtProductos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtServicios;
+        protected global::System.Web.UI.WebControls.TextBox txtProductos;
+
+        /// <summary>
+        /// Control Label2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// Control Label3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
+        /// Control txtIdProveedor.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtIdProveedor;
     }
 }

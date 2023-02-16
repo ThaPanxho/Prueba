@@ -11,7 +11,7 @@ namespace Sistema_De_Reparacion
 {
 
 
-    public partial class ServiciosAdmin
+    public partial class ProveedoresAdmin
     {
 
         /// <summary>
@@ -24,30 +24,30 @@ namespace Sistema_De_Reparacion
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control lblDescripcionSer.
+        /// Control lblDescripcionProv.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescripcionSer;
+        protected global::System.Web.UI.WebControls.Label lblDescripcionProv;
 
         /// <summary>
-        /// Control lblDescripcionSerAs.
+        /// Control lblDescripcionProvAs.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescripcionSerAs;
+        protected global::System.Web.UI.WebControls.Label lblDescripcionProvAs;
 
         /// <summary>
-        /// Control txtServicios.
+        /// Control txtProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtServicios;
+        protected global::System.Web.UI.WebControls.TextBox txtProveedores;
     }
 }

@@ -96,13 +96,13 @@ namespace Sistema_De_Reparacion
         protected global::System.Web.UI.WebControls.Label lblFechaAs;
 
         /// <summary>
-        /// Control txtFecha.
+        /// Control txtFechaNacEmpleado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtFecha;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtFechaNacEmpleado;
 
         /// <summary>
         /// Control lblSexoEm.
@@ -213,13 +213,13 @@ namespace Sistema_De_Reparacion
         protected global::System.Web.UI.WebControls.Label lblFechaContratacionAs;
 
         /// <summary>
-        /// Control txtfechaco.
+        /// Control txtFechaConEmpleado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtfechaco;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtFechaConEmpleado;
 
         /// <summary>
         /// Control lblArea.
@@ -240,13 +240,13 @@ namespace Sistema_De_Reparacion
         protected global::System.Web.UI.WebControls.Label lblAreaAs;
 
         /// <summary>
-        /// Control ddlArea.
+        /// Control ddlAreaEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlArea;
+        protected global::System.Web.UI.WebControls.DropDownList ddlAreaEmp;
 
         /// <summary>
         /// Control lblDireccion.
