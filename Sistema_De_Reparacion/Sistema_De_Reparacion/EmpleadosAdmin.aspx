@@ -1,0 +1,88 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EmpleadosAdmin.aspx.cs" Inherits="Sistema_De_Reparacion.EmpleadosAdmin" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+     <div class="container text-center mt-5">
+        <div class="card">
+            <div class="card-header">
+                <asp:Label Font-Size="Medium" ID="Label1" runat="server" Text="Ingresar Empleados"></asp:Label>
+            </div>
+            <div class="card-body">
+                <div class="row"> 
+                    <div class="col">   
+                        <asp:Label Font-Size="small" CssClass=" text-black-50" ID="lblNombreEm" runat="server" Text="Nombres"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblNombreEmAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <br />
+                        <asp:TextBox Font-Size="small" CssClass="form-control m-auto" ID="txtNombreEmp" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblApellidoEm" runat="server" Text="Apellidos"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblApellidoEmAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <asp:TextBox Font-Size="small" CssClass="form-control m-auto" ID="txtApellidoemp" runat="server"></asp:TextBox>
+                    </div>
+                </div>
+                <div class="row mt-2"> 
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblFechaEm" runat="server" Text="Fecha de Nacimiento"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblFechaAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <%--<asp:TextBox  CssClass="form-control" ID="txtFechaNacimiento" runat="server"></asp:TextBox>--%>
+                        <input type="date" id="txtFecha" runat="server" class="form-control m-auto" />
+                        <%--<asp:TextBox CssClass="form-control" ID="txtFechaEm" runat="server"></asp:TextBox>--%>
+                    </div>
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblSexoEm" runat="server" Text="Sexo"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblSexoEmAs" ForeColor="Red" runat="server" Text="*"></asp:Label><br />
+                        <asp:RadioButton Font-Size="small" cssClass="mx-2 m-auto" GroupName="rbSexo" ID="rbM" runat="server" />M
+                        <asp:RadioButton Font-Size="small" cssClass="mx-2" GroupName="rbSexo" ID="rbF" runat="server" />F
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col">   
+                        <asp:Label Font-Size="small" CssClass="" ID="lblTelefonoEm" runat="server" Text="Telefono"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblTelefonoEmAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <asp:TextBox Font-Size="small" CssClass="form-control m-auto" ID="txtTelefono" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblEstadoCivil" runat="server" Text="Estado Civil"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblEstadoCivilAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <asp:DropDownList CssClass="form-control m-auto" ID="ddlEstadoCivil" AutoPostBack="true" runat="server" ></asp:DropDownList>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblFechaContratacion" runat="server" Text="Fecha Contratacion"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblFechaContratacionAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <%--<asp:TextBox  CssClass="form-control" ID="txtFechaNacimiento" runat="server"></asp:TextBox>--%>
+                         <input type="date" id="txtfechaco" runat="server" class="form-control m-auto" />
+                        <%--<asp:TextBox CssClass="form-control" ID="txtFechaContratacion" runat="server"></asp:TextBox>--%>
+                    </div>
+                    <div class="col"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblArea" runat="server" Text="Area"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblAreaAs" ForeColor="Red" runat="server" Text="*"></asp:Label>
+                        <asp:DropDownList CssClass="form-control m-auto" ID="ddlArea" AutoPostBack="true" runat="server" ></asp:DropDownList>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-12"> 
+                        <asp:Label Font-Size="small" CssClass="" ID="lblDireccion" runat="server" Text="Direccion"></asp:Label>
+                        <asp:Label Font-Size="small" CssClass="" ID="lblDireccionAs" ForeColor="Red" runat="server" Text="*" Visible="false"></asp:Label>
+                       <%-- <asp:TextBox CssClass="form-control col-sm-12 col-md-12 col-lg-12" ID="txtDireccion" runat="server"></asp:TextBox>--%>
+                        <input class="form-control m-auto" type="text" name="txtDireccion" />
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="row mt-2"> 
+                    <div class="col"> 
+                        <asp:Button CssClass="btn btn-primary mt-2 mb-4" ID="btnGuardarUsu" runat="server" Text="Guardar Empleado" />
+                        <asp:Button CssClass="btn btn-warning mt-2 mb-4" ID="btnEditarUsu" runat="server" Text="Editar Empleado" />
+                        <asp:Button CssClass="btn btn-danger mt-2 mb-4" ID="btnCancelarUsu" runat="server" Text="Cancelar" OnClick="btnCancelarUsu_Click" />
+                        <%--<a href="#">content</a>
+                        <a href="#">content</a>
+                        <a class="btn btn-danger" style="width:100px ;border:medium; font-size:17px; height:30px" href="Index.aspx">content</a>--%>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</asp:Content>
