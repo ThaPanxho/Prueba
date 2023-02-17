@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ServiciosAdmin.aspx.cs" Inherits="Sistema_De_Reparacion.ServiciosAdmin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Servicios_Admin.aspx.cs" Inherits="Sistema_De_Reparacion.ServiciosAdmin" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container text-center mt-4">
         <div class="card">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QuienesSomosIndex.aspx.cs" Inherits="Sistema_De_Reparacion.QuienesSomosIndex" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QuienesSomos_Index.aspx.cs" Inherits="Sistema_De_Reparacion.QuienesSomosIndex" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s">
         <div class="container py-5">

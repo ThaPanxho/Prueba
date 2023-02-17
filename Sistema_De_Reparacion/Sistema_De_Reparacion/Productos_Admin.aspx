@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductosAdmin.aspx.cs" Inherits="Sistema_De_Reparacion.ProductosAdmin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Productos_Admin.aspx.cs" Inherits="Sistema_De_Reparacion.ProductosAdmin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container text-center mt-4">
         <div class="card">
             <div class="card-header">
-                <asp:Label ID="Label1" runat="server" Text="Ingresar Productos"></asp:Label>
+                <asp:Label Font-Size="Medium" ID="Label1" runat="server" Text="Ingresar Productos"></asp:Label>
              </div>
             <div class="card-body">
                 <div class="row">

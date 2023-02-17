@@ -106,8 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="ClienteAdmin.aspx" />
-    <Content Include="ClientesIndex.aspx" />
+    <Content Include="Cliente_Admin.aspx" />
+    <Content Include="Clientes_Index.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -118,8 +118,14 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
-    <Content Include="EmpleadosAdmin.aspx" />
-    <Content Include="EmpleadosIndex.aspx" />
+    <Content Include="Empleados_Admin.aspx" />
+    <Content Include="Empleados_Index.aspx" />
+    <Content Include="EquipoReparacionDetalle_Index.aspx" />
+    <Content Include="EquiposReparacionDetalle_Admin.aspx" />
+    <Content Include="EquiposReparacion_Admin.aspx" />
+    <Content Include="EquiposReparacion_Index.aspx" />
+    <Content Include="EquiposReparacionProductos_Admin.aspx" />
+    <Content Include="EquiposReparacionProductos_Index.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -179,11 +185,11 @@
     <Content Include="lib\wow\wow.js" />
     <Content Include="lib\wow\wow.min.js" />
     <Content Include="Login.aspx" />
-    <Content Include="ProductosAdmin.aspx" />
-    <Content Include="ProductosIndex.aspx" />
-    <Content Include="ProveedoresAdmin.aspx" />
-    <Content Include="ProveedoresIndex.aspx" />
-    <Content Include="QuienesSomosIndex.aspx" />
+    <Content Include="Productos_Admin.aspx" />
+    <Content Include="Productos_Index.aspx" />
+    <Content Include="Proveedores_Admin.aspx" />
+    <Content Include="Proveedores_Index.aspx" />
+    <Content Include="QuienesSomos_Index.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -212,11 +218,11 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="ServiciosAdmin.aspx" />
-    <Content Include="ServiciosIndex.aspx" />
+    <Content Include="Servicios_Admin.aspx" />
+    <Content Include="Servicios_Index.aspx" />
     <Content Include="Site.Master" />
-    <Content Include="UsuariosAdmin.aspx" />
-    <Content Include="UsuariosIndex.aspx" />
+    <Content Include="Usuarios_Admin.aspx" />
+    <Content Include="Usuarios_Index.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -233,19 +239,19 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Clases\Utilitarios.cs" />
-    <Compile Include="ClienteAdmin.aspx.cs">
-      <DependentUpon>ClienteAdmin.aspx</DependentUpon>
+    <Compile Include="Cliente_Admin.aspx.cs">
+      <DependentUpon>Cliente_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ClienteAdmin.aspx.designer.cs">
-      <DependentUpon>ClienteAdmin.aspx</DependentUpon>
+    <Compile Include="Cliente_Admin.aspx.designer.cs">
+      <DependentUpon>Cliente_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ClientesIndex.aspx.cs">
-      <DependentUpon>ClientesIndex.aspx</DependentUpon>
+    <Compile Include="Clientes_Index.aspx.cs">
+      <DependentUpon>Clientes_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ClientesIndex.aspx.designer.cs">
-      <DependentUpon>ClientesIndex.aspx</DependentUpon>
+    <Compile Include="Clientes_Index.aspx.designer.cs">
+      <DependentUpon>Clientes_Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -261,19 +267,61 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmpleadosAdmin.aspx.cs">
-      <DependentUpon>EmpleadosAdmin.aspx</DependentUpon>
+    <Compile Include="Empleados_Admin.aspx.cs">
+      <DependentUpon>Empleados_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmpleadosAdmin.aspx.designer.cs">
-      <DependentUpon>EmpleadosAdmin.aspx</DependentUpon>
+    <Compile Include="Empleados_Admin.aspx.designer.cs">
+      <DependentUpon>Empleados_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmpleadosIndex.aspx.cs">
-      <DependentUpon>EmpleadosIndex.aspx</DependentUpon>
+    <Compile Include="Empleados_Index.aspx.cs">
+      <DependentUpon>Empleados_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmpleadosIndex.aspx.designer.cs">
-      <DependentUpon>EmpleadosIndex.aspx</DependentUpon>
+    <Compile Include="Empleados_Index.aspx.designer.cs">
+      <DependentUpon>Empleados_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquipoReparacionDetalle_Index.aspx.cs">
+      <DependentUpon>EquipoReparacionDetalle_Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquipoReparacionDetalle_Index.aspx.designer.cs">
+      <DependentUpon>EquipoReparacionDetalle_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposReparacionDetalle_Admin.aspx.cs">
+      <DependentUpon>EquiposReparacionDetalle_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquiposReparacionDetalle_Admin.aspx.designer.cs">
+      <DependentUpon>EquiposReparacionDetalle_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposReparacion_Admin.aspx.cs">
+      <DependentUpon>EquiposReparacion_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquiposReparacion_Admin.aspx.designer.cs">
+      <DependentUpon>EquiposReparacion_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposReparacion_Index.aspx.cs">
+      <DependentUpon>EquiposReparacion_Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquiposReparacion_Index.aspx.designer.cs">
+      <DependentUpon>EquiposReparacion_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposReparacionProductos_Admin.aspx.cs">
+      <DependentUpon>EquiposReparacionProductos_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquiposReparacionProductos_Admin.aspx.designer.cs">
+      <DependentUpon>EquiposReparacionProductos_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposReparacionProductos_Index.aspx.cs">
+      <DependentUpon>EquiposReparacionProductos_Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquiposReparacionProductos_Index.aspx.designer.cs">
+      <DependentUpon>EquiposReparacionProductos_Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -292,55 +340,55 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProductosAdmin.aspx.cs">
-      <DependentUpon>ProductosAdmin.aspx</DependentUpon>
+    <Compile Include="Productos_Admin.aspx.cs">
+      <DependentUpon>Productos_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProductosAdmin.aspx.designer.cs">
-      <DependentUpon>ProductosAdmin.aspx</DependentUpon>
+    <Compile Include="Productos_Admin.aspx.designer.cs">
+      <DependentUpon>Productos_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProductosIndex.aspx.cs">
-      <DependentUpon>ProductosIndex.aspx</DependentUpon>
+    <Compile Include="Productos_Index.aspx.cs">
+      <DependentUpon>Productos_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProductosIndex.aspx.designer.cs">
-      <DependentUpon>ProductosIndex.aspx</DependentUpon>
+    <Compile Include="Productos_Index.aspx.designer.cs">
+      <DependentUpon>Productos_Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProveedoresAdmin.aspx.cs">
-      <DependentUpon>ProveedoresAdmin.aspx</DependentUpon>
+    <Compile Include="Proveedores_Admin.aspx.cs">
+      <DependentUpon>Proveedores_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProveedoresAdmin.aspx.designer.cs">
-      <DependentUpon>ProveedoresAdmin.aspx</DependentUpon>
+    <Compile Include="Proveedores_Admin.aspx.designer.cs">
+      <DependentUpon>Proveedores_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProveedoresIndex.aspx.cs">
-      <DependentUpon>ProveedoresIndex.aspx</DependentUpon>
+    <Compile Include="Proveedores_Index.aspx.cs">
+      <DependentUpon>Proveedores_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProveedoresIndex.aspx.designer.cs">
-      <DependentUpon>ProveedoresIndex.aspx</DependentUpon>
+    <Compile Include="Proveedores_Index.aspx.designer.cs">
+      <DependentUpon>Proveedores_Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="QuienesSomosIndex.aspx.cs">
-      <DependentUpon>QuienesSomosIndex.aspx</DependentUpon>
+    <Compile Include="QuienesSomos_Index.aspx.cs">
+      <DependentUpon>QuienesSomos_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="QuienesSomosIndex.aspx.designer.cs">
-      <DependentUpon>QuienesSomosIndex.aspx</DependentUpon>
+    <Compile Include="QuienesSomos_Index.aspx.designer.cs">
+      <DependentUpon>QuienesSomos_Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ServiciosAdmin.aspx.cs">
-      <DependentUpon>ServiciosAdmin.aspx</DependentUpon>
+    <Compile Include="Servicios_Admin.aspx.cs">
+      <DependentUpon>Servicios_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServiciosAdmin.aspx.designer.cs">
-      <DependentUpon>ServiciosAdmin.aspx</DependentUpon>
+    <Compile Include="Servicios_Admin.aspx.designer.cs">
+      <DependentUpon>Servicios_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ServiciosIndex.aspx.cs">
-      <DependentUpon>ServiciosIndex.aspx</DependentUpon>
+    <Compile Include="Servicios_Index.aspx.cs">
+      <DependentUpon>Servicios_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServiciosIndex.aspx.designer.cs">
-      <DependentUpon>ServiciosIndex.aspx</DependentUpon>
+    <Compile Include="Servicios_Index.aspx.designer.cs">
+      <DependentUpon>Servicios_Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -356,19 +404,19 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="UsuariosAdmin.aspx.cs">
-      <DependentUpon>UsuariosAdmin.aspx</DependentUpon>
+    <Compile Include="Usuarios_Admin.aspx.cs">
+      <DependentUpon>Usuarios_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UsuariosAdmin.aspx.designer.cs">
-      <DependentUpon>UsuariosAdmin.aspx</DependentUpon>
+    <Compile Include="Usuarios_Admin.aspx.designer.cs">
+      <DependentUpon>Usuarios_Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UsuariosIndex.aspx.cs">
-      <DependentUpon>UsuariosIndex.aspx</DependentUpon>
+    <Compile Include="Usuarios_Index.aspx.cs">
+      <DependentUpon>Usuarios_Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UsuariosIndex.aspx.designer.cs">
-      <DependentUpon>UsuariosIndex.aspx</DependentUpon>
+    <Compile Include="Usuarios_Index.aspx.designer.cs">
+      <DependentUpon>Usuarios_Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
